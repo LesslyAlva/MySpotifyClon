@@ -18,6 +18,8 @@ section {
     width: 70%;
     height: 100vh;
     color: white;
+    display: flex;
+    flex-direction: column;
 }
 
 
@@ -89,20 +91,50 @@ aside {
     height: 7%;
     background-color: #121212;
     width: 98%;
-    margin: 1%;
+    margin: 2%;
     display: flex;
     justify-content: flex-end;
+    border-radius: 10px;
 }
 
-.playlist {
-    height: 74%;
-    background-color: #121212;
-    margin-top: 2%;
+.albumes {
+    width: 100%;
+    display: flex;
+    align-items: center;
 }
 
-.playlist>img {
-    height: 10px;
-
+.albumes>img {
+    height: 60px;
+    padding: 20px;
 }
+
+.lista-de-canciones>div>img {
+    height: 25px;
+    padding: 20px;
+}
+
+.nombre-lista {
+    border-radius: 10px;
+    background-color: #121212; 
+    margin: 1%;
+    display: flex;
+    align-items: center;
+}
+
+.nombre-lista>img {
+    height: 200px;
+     margin: 4%;
+}
+
+.play {
+    border-radius: 10px;
+    background-color: #121212; 
+    margin-left: 1%;        
+}
+
+.play>img {
+    height: 50px;
+}
+
 
 
