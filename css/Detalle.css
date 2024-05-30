@@ -26,6 +26,7 @@ section {
 aside {
     display: flex;
     flex-direction: column;
+    height: 100%;
 
 }
 
@@ -52,7 +53,7 @@ aside {
 }
 
 .lista-de-canciones {
-    height: 70%;
+    height: 100%;
     background-color: black;
     color: white;
     font-size: 15px;
@@ -114,9 +115,12 @@ aside {
 }
 
 .nombre-lista {
-    border-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
     background-color: #121212; 
-    margin: 1%;
+    margin-top: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
     display: flex;
     align-items: center;
 }
@@ -127,14 +131,114 @@ aside {
 }
 
 .play {
-    border-radius: 10px;
-    background-color: #121212; 
-    margin-left: 1%;        
+    background-color: #121212;
+    margin-left: 1%;
 }
 
 .play>img {
     height: 50px;
+    margin-left: 5%;
 }
 
+.caratula-y-nombre {
+    display: flex;
+    margin-left: 1%;
+    margin-top: 12px;
+}
 
+.caratula-y-nombre>img {
+    height: 40px;
+    width: 40px;
+    margin-top: 5px;
+}
 
+.caratula-y-nombre>h6 {
+    margin-bottom: 0;
+    margin-top: 5px;
+
+}
+
+.nombre-cancion {
+    display: flex; 
+    flex-direction: column;
+    background-color: #121212;
+    margin-left: 1%;
+    
+}
+
+.nombre-cancion>h1 {
+    margin-bottom: 0; 
+    margin-left: 10px; 
+    margin-top: 4px;
+}
+
+.nombre-cancion>h5 {
+    margin: 0; 
+    margin-left: 10px;
+}
+
+.palomita-verde>div>svg {
+    fill: #1ed760; 
+    height: 16px; 
+    margin-top: 60px; 
+    display: flex;
+    align-items: flex-end;
+}
+
+.detalle-cancion {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.album {
+    background-color: #121212;
+}
+
+.palomita-verde {
+    background-color: #121212;
+    display: flex;
+
+}
+
+.letras-cancion>h1 {
+    margin: 0;
+    margin-left: 10px;
+}
+
+.letras-cancion>h4 {
+    margin: 0;
+    margin-left: 10px;
+}
+
+.album>div>h4 {
+    margin: 0;
+}
+
+.album>div {
+    height: 46px;
+    
+}
+
+.iconito {
+    display: flex;
+    align-items: center;
+}
+
+.iconito2>svg {
+    fill: red;
+}
+
+.palomita-negra {
+    background-color: #121212;
+    display: flex;
+    height: 46px;
+    align-items: center;
+}
+
+.palomita-negra>div>svg {
+    fill: #1ed760; 
+    height: 16px;
+    display: flex;
+    
+}
